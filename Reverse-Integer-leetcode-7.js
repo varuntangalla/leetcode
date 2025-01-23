@@ -19,7 +19,7 @@ function reverseInteger(x){
       }  
       output = (output* 10) + temp;
     }
-
+    
     return isNegative ? -output : output;
 }
 
